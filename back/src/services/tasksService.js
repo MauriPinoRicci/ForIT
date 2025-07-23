@@ -74,4 +74,5 @@ const deleteTask = (id) => {
   return task;
 };
 
-export { getTasksService, createTaskService, modifyTaskService, deleteTask };
+export { createTaskService, deleteTask, getTasksService, modifyTaskService };
+

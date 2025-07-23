@@ -1,13 +1,13 @@
 import "@/styles/globals.css";
-import { Metadata, Viewport } from "next";
 import { Link } from "@heroui/link";
 import clsx from "clsx";
+import { Metadata, Viewport } from "next";
 
 import { Providers } from "./providers";
 
-import { siteConfig } from "@/config/site";
-import { fontSans } from "@/config/fonts";
 import { Navbar } from "@/components/navbar";
+import { fontSans } from "@/config/fonts";
+import { siteConfig } from "@/config/site";
 
 export const metadata: Metadata = {
   title: {
@@ -38,7 +38,7 @@ export default function RootLayout({
       <body
         className={clsx(
           "min-h-screen text-foreground bg-background font-sans antialiased",
-          fontSans.variable,
+          fontSans.variable
         )}
       >
         <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
@@ -54,8 +54,8 @@ export default function RootLayout({
                 href="https://heroui.com?utm_source=next-app-template"
                 title="heroui.com homepage"
               >
-                <span className="text-default-600">Powered by</span>
-                <p className="text-primary">HeroUI</p>
+                <span className="text-default-600">Challenge para</span>
+                <p className="text-primary">Jala University</p>
               </Link>
             </footer>
           </div>
