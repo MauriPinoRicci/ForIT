@@ -3,7 +3,7 @@
 import { TaskItemProps } from "@/interface/TaskItemProps";
 import { Card } from "@heroui/card";
 
-const TaskItem = ({ task, onToggleComplete }: TaskItemProps) => {
+const TaskItem = ({ task }: TaskItemProps) => {
   return (
     <Card className="p-4 border border-gray-200 shadow-sm">
       <div className="flex justify-between items-start">

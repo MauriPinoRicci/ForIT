@@ -77,8 +77,8 @@ export default function Home() {
   };
 
   return (
-    <main className="p-4 max-w-xl mx-auto space-y-6">
-      <h1 className="text-3xl font-bold mb-4">Mis tareas</h1>
+    <main className=" max-w-xl mx-auto space-y-6">
+      <h1 className="text-3xl font-bold mb-2">Mis tareas</h1>
 
       <div className="flex gap-4 items-center">
         <Button
